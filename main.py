@@ -4,9 +4,9 @@ import discord
 from discord.ext import commands
 
 
-token = open('token.txt', 'r').readline()
+TOKEN = open('token.txt', 'r').readline()
 config = {
-    'token': token,
+    'token': TOKEN,
     'prefix': '.',
 }
 
